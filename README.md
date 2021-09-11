@@ -2,7 +2,7 @@
 - Bayt assignment for frontend developer.
 ----------------------------------------------------
 # Notes:
-- [config.json](https://github.com/Majd-Yahia/BaytAssignment/blob/main/src/config.json) controls the following
+## [config.json](https://github.com/Majd-Yahia/BaytAssignment/blob/main/src/config.json) controls the following
     - Width/height (size) of the chart.
     - Priority of the chart.
     - Column and Row of the chart.
