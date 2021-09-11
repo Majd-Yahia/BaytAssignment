@@ -1,0 +1,136 @@
+{
+    "rows": [
+        {
+            "charts": [
+                {
+                    "width": 900,
+                    "height": 350,
+                    "columns": 6,
+                    "priority": 3,
+                    "api": "",
+                    "title": "Line Chart",
+                    "type": "Line",
+                    "labels": [
+                        "January",
+                        "February",
+                        "March"
+                    ],
+                    "datasets": [
+                        {
+                            "label": "Data One",
+                            "backgroundColor": "#f87979",
+                            "data": [
+                                160,
+                                20,
+                                900
+                            ]
+                        },
+                        {
+                            "label": "Data Two",
+                            "backgroundColor": "#f80079",
+                            "data": [
+                                -200,
+                                360,
+                                -10
+                            ]
+                        },
+                        {
+                            "label": "Data Three",
+                            "backgroundColor": "#000000",
+                            "data": [
+                                -20,
+                                500,
+                                -60
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "width": 500,
+                    "height": 350,
+                    "columns": 4,
+                    "priority": 2,
+                    "api": "",
+                    "title": "BarChart",
+                    "type": "Bar",
+                    "labels": [
+                        "January",
+                        "February",
+                        "March"
+                    ],
+                    "datasets": [
+                        {
+                            "label": "Data One",
+                            "backgroundColor": "#f87979",
+                            "data": [
+                                160,
+                                20,
+                                900
+                            ]
+                        },
+                        {
+                            "label": "Data Two",
+                            "backgroundColor": "#f80079",
+                            "data": [
+                                -200,
+                                360,
+                                -10
+                            ]
+                        },
+                        {
+                            "label": "Data Three",
+                            "backgroundColor": "#000000",
+                            "data": [
+                                -20,
+                                500,
+                                -60
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "charts": [
+                {
+                    "width": 350,
+                    "height": 350,
+                    "columns": 8,
+                    "priority": 4,
+                    "api": "",
+                    "title": "Bubble Chart",
+                    "type": "Bubble",
+                    "datasets": [
+                        {
+                            "label": "My First Bubble Dataset",
+                            "backgroundColor": "rgb(255, 99, 132)",
+                            "data": [
+                                {
+                                    "x": 23,
+                                    "y": 35,
+                                    "z": 90
+                                },
+                                {
+                                    "x": 90,
+                                    "y": 45,
+                                    "z": 30
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "width": 500,
+                    "height": 350,
+                    "columns": 4,
+                    "priority": 1,
+                    "api": "https://yahia-legal-firm.herokuapp.com/line",
+                    "title": "API Call",
+                    "type": "Bar",
+                    "labels": [],
+                    "datasets": []
+                }
+            ]
+        }
+    ]
+}
