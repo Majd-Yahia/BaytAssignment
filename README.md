@@ -12,8 +12,9 @@
 - I have included an api example [Api Example](https://yahia-legal-firm.herokuapp.com/line)
 ----------------------------------------------------
 # Installation
+```
 - git clone or you can fork it.
 - run npm install.
 - npm run serve.
     - you will find it at port: 8080
-
+```
